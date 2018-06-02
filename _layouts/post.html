@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 layout: page
 ---
 
@@ -47,3 +48,13 @@ layout: page
 {% if site.disqus.categories contains page.category %}
     {% include disqus.html %}
 {% endif %}
+=======
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+  {{ content }}
+</div>
+>>>>>>> b8db73c6d564b0acc7da3b167e2bbc9b51e8ff09

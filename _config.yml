@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # main text of home
 name: John Doe
 bio: A Man who travels the world eating noodles
@@ -109,3 +110,9 @@ plugins:
 
 jekyll-mentions:
     base_url: https://github.com
+=======
+theme: jekyll-theme-slate
+name: Sailaja Yenepalli
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+>>>>>>> b8db73c6d564b0acc7da3b167e2bbc9b51e8ff09
